@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Incident_resolve
 // @namespace    https://github.com/ketra/userScripts/raw/master/Incident_resolve.user.js
-// @version      0.2
+// @version      0.3
 // @description  This will Help resolve incidents in Service now
 // @author       https://github.com/ketra/
 // @include      https://*incident.do*
@@ -20,13 +20,10 @@
     btn.appendChild(t);
     if (g_form.getValue('state') > 1 || !isEmpty(g_form.getValue('number')) )
     {
-        //matches[0].parentElement.insertBefore(btn,matches[0]);
         insertAfter(btn,matches[0]);
     }
-    //alert(g_form.getValue('number'));
 
     btn.addEventListener("click", function() {
-
         var CloseText = prompt("Please fill in a text to close the incident.");
         //var cause = g_form.getValue('u_cause_code'); //software
         //var comp = g_form.getValue('u_cause_comp'); //66fe4bc86f106200bb3cd107eb3ee452
@@ -45,9 +42,6 @@
 		g_form.flash("u_cause_code", "#FFFACD", -4);
 		g_form.flash("close_code", "#FFFACD", -4);
 		g_form.flash("comments", "#FFFACD", -4);
-		
-        
-
 }, false);
 })();
 
