@@ -6,6 +6,7 @@
 // @author       https://github.com/ketra/
 // @include      https://*incident.do*
 // @grant        none
+// @updateURL	 https://github.com/ketra/userScripts/raw/master/Incident_resolve.user.js
 // ==/UserScript==
 
 (function() {
