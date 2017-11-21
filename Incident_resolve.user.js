@@ -38,8 +38,14 @@
         g_form.setValue('u_cause_comp', '66fe4bc86f106200bb3cd107eb3ee452');
         g_form.setValue('close_code', 'Afgehandeld');
         g_form.setValue("comments", CloseText);
-
-        //alert('The following incident is assigned to: ' + assigned);
+		// Flashing
+		g_form.flash("state", "#FFFACD", -4);
+		g_form.flash("assigned_to", "#FFFACD", -4);
+		g_form.flash("u_cause_code", "#FFFACD", -4);
+		g_form.flash("close_code", "#FFFACD", -4);
+		g_form.flash("comments", "#FFFACD", -4);
+		
+        
 
 }, false);
 })();
