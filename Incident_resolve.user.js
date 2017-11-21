@@ -37,11 +37,11 @@
         g_form.setValue('close_code', 'Afgehandeld');
         g_form.setValue("comments", CloseText);
 		// Flashing
-		g_form.flash("state", "#FFFACD", -4);
-		g_form.flash("assigned_to", "#FFFACD", -4);
-		g_form.flash("u_cause_code", "#FFFACD", -4);
-		g_form.flash("close_code", "#FFFACD", -4);
-		g_form.flash("comments", "#FFFACD", -4);
+		g_form.flash("state", "#ff0000", -4);
+		g_form.flash("assigned_to", "#ff0000", -4);
+		g_form.flash("u_cause_code", "#ff0000", -4);
+		g_form.flash("close_code", "#ff0000", -4);
+		g_form.flash("comments", "#ff0000", -4);
 }, false);
 })();
 
