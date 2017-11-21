@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Incident_resolve
-// @namespace    https://github.com/ketra/userScripts
+// @namespace    https://github.com/ketra/userScripts/raw/master/Incident_resolve.user.js
 // @version      0.1
 // @description  This will Help resolve incidents in Service now
 // @author       https://github.com/ketra/
